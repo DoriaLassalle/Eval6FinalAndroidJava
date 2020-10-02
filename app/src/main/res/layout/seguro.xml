@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".SeguroActivity">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="128dp"
+        android:layout_height="122dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="4dp"
+        android:scaleType="centerInside"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logoaseg" />
+
+    <LinearLayout
+        android:layout_width="380dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="380dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Siniestros del vehículo :"
+            android:textColor="#003895"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/siniestros"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="5"
+            android:hint="Cantidad"
+            android:backgroundTint="#FA063F"
+            android:inputType="number"
+            android:textColor="#003895"
+            android:textColorHint="#9DB6DF"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/mostrarPrecio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="590dp"
+        android:layout_marginEnd="10dp"
+        android:textAlignment="center"
+        android:textColor="#FA063F"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/back2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="530dp"
+        android:layout_marginEnd="5dp"
+        android:background="@drawable/tercerboton_round"
+        android:text="Volver a home"
+        android:textColor="#003895"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="264dp"
+        android:layout_marginEnd="10dp"
+        android:text="Tipo de Vehículo :"
+        android:textColor="#003895"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.685"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup2"
+        android:layout_width="110dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="225dp"
+        android:layout_marginTop="285dp"
+        android:gravity="center_horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/modeloA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="#003895"
+            android:text="City Car"
+            android:textColor="#003895" />
+
+        <RadioButton
+            android:id="@+id/modeloB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="#003895"
+            android:text="Sedán"
+            android:textColor="#003895" />
+
+        <RadioButton
+            android:id="@+id/modeloC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="#003895"
+            android:text="SUV"
+            android:textColor="#003895" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="264dp"
+        android:layout_marginEnd="174dp"
+        android:text="Edad del Propietario :"
+        android:textColor="#003895"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.129"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup1"
+        android:layout_width="180dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="285dp"
+        android:gravity="center_horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/edadA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="#003895"
+            android:text="Entre 18 y 24 años"
+            android:textColor="#003895" />
+
+        <RadioButton
+            android:id="@+id/edadB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="#003895"
+            android:text="Entre 24 y 53 años"
+            android:textColor="#003895" />
+
+        <RadioButton
+            android:id="@+id/edadC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="#003895"
+            android:text="Mayor de 53 años"
+            android:textColor="#003895" />
+
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="380dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="176dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Propietario :"
+            android:textColor="#003895"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/propietario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/nombre"
+            android:inputType="textPersonName"
+            android:backgroundTint="#FA063F"
+            android:textColor="#003895"
+            android:textColorHint="#9DB6DF"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="380dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="216dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView165"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/valor_veh_culo"
+            android:textColor="#003895"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/valor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/s_lo_numeros"
+            android:inputType="number"
+            android:backgroundTint="#FA063F"
+            android:textColor="#003895"
+            android:textColorHint="#9DB6DF"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/calcSeguro2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="430dp"
+        android:layout_marginEnd="5dp"
+        android:background="@drawable/tercerboton_round"
+        android:text="Calcular"
+        android:textColor="#003895"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/clear2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="480dp"
+        android:layout_marginEnd="5dp"
+        android:background="@drawable/tercerboton_round"
+        android:text="Limpiar Datos"
+        android:textColor="#003895"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="125dp"
+        android:layout_marginEnd="10dp"
+        android:text="CALCULA EL COSTO DE SEGURO DE TU AUTOMÓVIL"
+        android:textAlignment="center"
+        android:textColor="#FA063F"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

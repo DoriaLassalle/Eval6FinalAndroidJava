@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    tools:context=".toolbarmenu" >
+
+
+    <item
+        android:title="Conversión Moneda"
+        android:id="@+id/divisa"
+        app:showAsAction="never"/>
+
+    <item android:title="Calculo Multas"
+        android:id="@+id/multa"
+        app:showAsAction="never" />
+
+    <item android:title="Costo Póliza"
+        android:id="@+id/seguro"
+        app:showAsAction="never" />
+
+    <item android:title="Cerrar App"
+        android:id="@+id/close"
+        app:showAsAction="never" />
+
+</menu>

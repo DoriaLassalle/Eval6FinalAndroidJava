@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Registro">
+
+    <LinearLayout
+        android:layout_width="377dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="193dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/amatic_sc_bold"
+            android:text="@string/nombre"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName"
+            android:layout_width="235dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:fontFamily="@font/amatic_sc_bold"
+            android:hint="@string/nom"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="377dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="243dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/amatic_sc_bold"
+            android:text="@string/apellido"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/etApell"
+            android:layout_width="235dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:fontFamily="@font/amatic_sc_bold"
+            android:hint="@string/ap"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="377dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="293dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/amatic_sc_bold"
+            android:text="@string/correo"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/etMail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:fontFamily="@font/amatic_sc_bold"
+            android:hint="micorreo@correo.com"
+            android:inputType="textEmailAddress" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="377dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="343dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/amatic_sc_bold"
+            android:text="@string/contrase_a"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/etPass"
+            android:layout_width="262dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:fontFamily="@font/amatic_sc_bold"
+            android:hint="8 numeros"
+            android:inputType="numberPassword" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="107dp"
+        android:layout_marginTop="96dp"
+        android:layout_marginEnd="107dp"
+        android:fontFamily="@font/amatic_sc_bold"
+        android:text="@string/formulario_de_registro"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="442dp"
+        android:background="@color/colorAccent"
+        android:fontFamily="@font/amatic_sc_bold"
+        android:text="@string/registrar"
+        android:textColor="#322E2E"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/home3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="495dp"
+        android:background="@color/colorAccent"
+        android:fontFamily="@font/amatic_sc_bold"
+        android:text="@string/comenzar_a_usar_la_app"
+        android:textColor="#322E2E"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

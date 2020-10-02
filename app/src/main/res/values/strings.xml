@@ -1,0 +1,41 @@
+<resources>
+    <string name="admob_app_id">
+ca-app-pub-3940256099942544~3347511713</string>
+    <string name="admob_banner_id">
+ca-app-pub-3940256099942544/6300978111</string>
+    <string name="app_name">EvalFinalAndroid</string>
+    <string name="email">EMAIL</string>
+    <string name="password">PASSWORD</string>
+    <string name="entrar">ENTRAR</string>
+    <string name="todos">TODO</string>
+    <string name="registrarse">REGISTRARSE</string>
+    <string name="eur">EUR</string>
+    <string name="_0_30">0.00</string>
+    <string name="euros">Euros</string>
+    <string name="_0_20">0.00</string>
+    <string name="monto_a_calcular">Monto a calcular :</string>
+    <string name="_0_10">0.00</string>
+    <string name="libras">Libras</string>
+    <string name="yen">YEN</string>
+    <string name="yenes">Yenes</string>
+    <string name="d_lares_americanos">Dólares Americanos</string>
+    <string name="_0_40">0.00</string>
+    <string name="usd">USD</string>
+    <string name="lll">LLL</string>
+    <string name="_0_50">0.00</string>
+    <string name="nombre">Nombre</string>
+    <string name="formulario_de_registro">Formulario de Registro</string>
+    <string name="apellido">apellido</string>
+    <string name="correo">Correo</string>
+    <string name="contrase_a">Contraseña</string>
+    <string name="nom" />
+    <string name="ap" />
+    <string name="co" />
+    <string name="con" />
+    <string name="registrar">registrar</string>
+    <string name="comenzar_a_usar_la_app">Comenzar a usar la app</string>
+    <string name="nomb">Nombre</string>
+    <string name="valor_veh_culo">Valor Vehículo :</string>
+    <string name="s_lo_numeros">Sólo numeros</string>
+    <string name="todo">TODO</string>
+</resources>
